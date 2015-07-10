@@ -1,7 +1,7 @@
 """Convert the MARS output to G4Beamline beam format
 
 Usage:
-python MarsToG4.py marsfile
+python mars2g4bl.py marsfile
 
 The MARS file should be in the following format:
 Every row contains:
@@ -27,7 +27,7 @@ __history__ ={"02/09/2015": "antiproton's PDGID should have been -2212; was "
               "07/07/2015": "Changed the script so that it can be used as a "
                             "module",
               }
-__help__ = "Usage: python MarsToG4.py marsfile"
+__help__ = "Usage: python mars2g4bl.py marsfile"
 __extrahelp__ = """Explanation of each key:
 
 'p_cut':[p_min, p_max], a list/ndarray with 2 floats numbers, i.e. minimum and
