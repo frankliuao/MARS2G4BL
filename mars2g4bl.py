@@ -207,5 +207,5 @@ if __name__ == '__main__':
               'fraction of the beam! ---'
         sys.exit(1)
 
-    main(sys.argv[1],{'p_cut':p_cut, 'duplicate':duplicate, 'mult':mult,
+    main(sys.argv[1], {'p_cut':p_cut, 'duplicate':duplicate, 'mult':mult,
                       'fraction':fraction})
